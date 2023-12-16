@@ -9,6 +9,7 @@ let historyList = [];
 // Déclaration de la fonction rollDice qui va pemettre de lancer le dé
 const rollDice = () => {
   const rollResult = Math.floor(Math.random() * 6) + 1;
+  console.log(rollResult);
   const diceFace = getDiceFace(rollResult); // Appel de la fonction getDiceFace
   dice.innerHTML = diceFace;
   // insertion du résultat du lancée de dé dans le tableau historyList

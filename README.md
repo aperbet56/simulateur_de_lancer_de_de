@@ -1,4 +1,4 @@
-## SIMULATEUR DE LANDER DE DE (DICE ROLL SIMULATOR)
+## SIMULATEUR DE LANDER DE DÉ (DICE ROLL SIMULATOR)
 
 ## Le challenge
 
@@ -6,7 +6,7 @@ Construction d'un simulateur de lancer de dé en HTML5, CSS3 et JavaScript avec 
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/simulateur_de_lancer_de_de/
 
 ## Développez avec
 

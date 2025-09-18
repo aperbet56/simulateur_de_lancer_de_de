@@ -4,9 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
-    outline: none;
+}
+
+ul {
     list-style-type: none;
+}
+
+button {
+    border: none;
+    outline: nones;
 }
 
 /**** Style général de la page ****/
@@ -17,23 +23,38 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #34495e;
+    background-color: #faeee7;
     font-family: sans-serif;
-    color: #ffffff;
+    color: #33272a;
 }
 
-header, footer {
+header,
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 
+header {
+    flex-direction: column;
+}
+
 header h1 {
-    text-align: center;
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+header h1,
+header p {
+    text-align: center;
+}
+
+header p {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 .main__content {
@@ -49,8 +70,7 @@ header h1 {
 
 .container {
     width: 100%;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fffffe;
     border-radius: 15px;
     padding: 20px 20px 15px;
     display: flex;
@@ -66,7 +86,7 @@ header h1 {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-  
+
 .roll__animation {
     animation-name: roll;
 }
@@ -75,37 +95,36 @@ header h1 {
 
 @keyframes roll {
     from {
-      transform: rotateY(0deg) rotateX(0deg);
+        transform: rotateY(0deg) rotateX(0deg);
     }
-  
+
     to {
-      transform: rotateY(720deg) rotateX(720deg);
+        transform: rotateY(720deg) rotateX(720deg);
     }
 }
-  
+
 #roll__btn {
     width: 100%;
-    background-color: #47a5c4;
-    color: #ffffff;
+    background-color: #ffc6c7;
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
     padding: 1rem 2rem;
     border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 }
-  
+
 #roll__btn:hover {
-    background-color: #2e8baf;
+    opacity: 0.8;
 }
-  
+
 ul {
     width: 100%;
     padding: 0;
     margin: 2rem auto;
 }
-  
+
 li {
     width: 100%;
     display: flex;
@@ -114,11 +133,11 @@ li {
     font-size: 1.5rem;
     padding: 0.75rem;
     margin: 1.2rem 0;
-    background-color: #eeeeee;
+    background-color: #faeee7;
     border-radius: 15px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
-  
+
 li span {
     font-size: 3rem;
 }
@@ -127,4 +146,5 @@ footer span {
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
+    padding-top: 1.5rem;
 }

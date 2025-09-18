@@ -15,7 +15,7 @@ button {
     outline: nones;
 }
 
-/**** Style général de la page ****/
+/**** body ****/
 
 body {
     width: 100%;
@@ -28,6 +28,8 @@ body {
     color: #33272a;
 }
 
+/**** header, footer ****/
+
 header,
 footer {
     display: flex;
@@ -35,6 +37,8 @@ footer {
     align-items: center;
     padding: 1rem;
 }
+
+/**** header ****/
 
 header {
     flex-direction: column;
@@ -57,6 +61,8 @@ header p {
     line-height: 1.5;
 }
 
+/**** main ****/
+
 .main__content {
     display: flex;
     flex-direction: column;
@@ -67,6 +73,8 @@ header p {
     width: 100%;
     padding: 0 1.4rem;
 }
+
+/**** section container ****/
 
 .container {
     width: 100%;
@@ -141,6 +149,8 @@ li {
 li span {
     font-size: 3rem;
 }
+
+/**** footer ****/
 
 footer span {
     text-align: center;

@@ -1,4 +1,6 @@
-## SIMULATEUR DE LANCER DE DÉ (DICE ROLL SIMULATOR)
+## SIMULATEUR DE LANCER DE DÉ (DICE ROLL SIMULATOR) 🎲
+
+![Design preview for the project](./img/preview.png)
 
 ## Le challenge
 
